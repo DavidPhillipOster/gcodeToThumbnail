@@ -1,5 +1,5 @@
 # gcodeToThumbnail
-A command line tool to give GCode files icons in Finder.
+A command line tool to give PrusaSlicer GCode files icons in macOS Finder.
 
 I got tired of my gcode files looking like 
 
