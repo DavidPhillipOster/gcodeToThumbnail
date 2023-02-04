@@ -20,7 +20,7 @@ the image as the file's icon.
 PrusaSlicer is supposed to run  automatically for you if you tell it to in Print Settings:
   ![](images/printSettings.png) 
 
-but that doesn't work for me.
+but that doesn't work for me. (I filed PrusaSlicer bug [#9579](https://github.com/prusa3d/PrusaSlicer/issues/9579) to ask them to make it work. )
 
 I have to run `gcodeToThumbnail` from the command line, passing the .gcode file (You can drag from Finder to Terminal and it will fill in the absolute path for you.) 
 
