@@ -7,7 +7,7 @@ I got tired of my gcode files looking like
 
 To Install:
 
-* install the compiled `gcodeToThumbnail` in `/usr/local/bin/`
+* install the compiled `gcodeToThumbnail` in `/usr/local/bin/` If you don't want to compile it yourself, grab the compiled code from [Releases](https://github.com/DavidPhillipOster/gcodeToThumbnail/releases/tag/1.0)
 * In Prusa Slicer, in Printer Settings, set the thumbnail size to 128x128:
 
    ![](images/128x128.png)
