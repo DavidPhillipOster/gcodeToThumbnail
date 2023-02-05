@@ -26,6 +26,19 @@ I have to run `gcodeToThumbnail` from the command line, passing the .gcode file 
 
 But when I do, it works, so now my .gcode files have decent icons in Finder.
 
+## News
+
+Since Feb 3 2023 I learned that PrusaSlicer gcode files can contain non-square thumbnails and multiple thumbnails.
+
+I learned that while my tool shows those thumbnails as Finder icons when the file resides on a Mac disk, the icon vanishes when the file is moved to a FAT format SD card.
+
+I learned that PrusaSlicer .3MF files _always_ contain a thumbnail image.
+
+Available now, the successor to this:
+
+[ThumbHost3mf](https://github.com/DavidPhillipOster/ThumbHost3mf) - a macOS app that has an thumbnail provider extension that tells the Finder to use the thumbnails embedded in .3mf files and some .gcode files. The icons show even on FAT format SD cards.
+
+
 ## License
 
 Apache 2 [License](LICENSE)
